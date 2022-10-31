@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MainRoutingModule } from './main/main-routing.module';
 
 import { AppComponent } from './app.component';
 import { ProductComponent } from './product/product.component';
@@ -20,7 +21,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     NavbarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MainRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

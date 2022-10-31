@@ -1,5 +1,9 @@
-.bg-color{
+.bg{
     background-image: url('https://wallpaperaccess.com/full/124068.jpg');
+    background-size: cover;
 
     height: 100vh;
+}
+.form{
+    background: rgba(251, 254, 252, 0.5);
 }
